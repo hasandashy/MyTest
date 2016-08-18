@@ -1,0 +1,395 @@
+<?xml version="1.0" encoding="utf-8"?>
+<wsdl:definitions xmlns:soapenc="http://schemas.xmlsoap.org/soap/encoding/" xmlns:tm="http://microsoft.com/wsdl/mime/textMatching/" xmlns:mime="http://schemas.xmlsoap.org/wsdl/mime/" xmlns:tns="http://webportalbridge.ptassoc.com/DataAccess/" xmlns:soap="http://schemas.xmlsoap.org/wsdl/soap/" xmlns:s="http://www.w3.org/2001/XMLSchema" xmlns:http="http://schemas.xmlsoap.org/wsdl/http/" xmlns:soap12="http://schemas.xmlsoap.org/wsdl/soap12/" targetNamespace="http://webportalbridge.ptassoc.com/DataAccess/" xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/">
+  <wsdl:documentation xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/">The DataAccess web service provides pass thru capability to handle inserting, updating and selecting data for tables stored in CRM4M.</wsdl:documentation>
+  <wsdl:types>
+    <s:schema elementFormDefault="qualified" targetNamespace="http://webportalbridge.ptassoc.com/DataAccess/">
+      <s:element name="ExecuteSQLStatement">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="securityPassword" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="sqlStatement" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="ExecuteSQLStatementResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="ExecuteSQLStatementResult" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="ExecuteSelectSQLStatement">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="securityPassword" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="sqlStatement" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="ExecuteSelectSQLStatementResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="ExecuteSelectSQLStatementResult" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="ExecuteStoredProcedure">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="securityPassword" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="name" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="parameters" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="ExecuteStoredProcedureResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="ExecuteStoredProcedureResult" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="ExecuteDatasetStoredProcedure">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="securityPassword" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="name" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="parameters" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="ExecuteDatasetStoredProcedureResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="ExecuteDatasetStoredProcedureResult">
+              <s:complexType>
+                <s:sequence>
+                  <s:element ref="s:schema" />
+                  <s:any />
+                </s:sequence>
+              </s:complexType>
+            </s:element>
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="ExecuteNonQueryStoredProcedure">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="securityPassword" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="name" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="parameters" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="ExecuteNonQueryStoredProcedureResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="ExecuteNonQueryStoredProcedureResult" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="CreateDynamicRecord">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="securityPassword" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="custom" type="tns:Custom" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:complexType name="Custom">
+        <s:sequence>
+          <s:element minOccurs="0" maxOccurs="1" name="XMLString" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="Number" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="EntityName" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="EntityId" type="s:string" />
+        </s:sequence>
+      </s:complexType>
+      <s:element name="CreateDynamicRecordResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="CreateDynamicRecordResult" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="UpdateDynamicRecord">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="securityPassword" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="custom" type="tns:Custom" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="UpdateDynamicRecordResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="UpdateDynamicRecordResult" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="DeleteDynamicRecord">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="securityPassword" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="custom" type="tns:Custom" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="DeleteDynamicRecordResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="DeleteDynamicRecordResult" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+    </s:schema>
+  </wsdl:types>
+  <wsdl:message name="ExecuteSQLStatementSoapIn">
+    <wsdl:part name="parameters" element="tns:ExecuteSQLStatement" />
+  </wsdl:message>
+  <wsdl:message name="ExecuteSQLStatementSoapOut">
+    <wsdl:part name="parameters" element="tns:ExecuteSQLStatementResponse" />
+  </wsdl:message>
+  <wsdl:message name="ExecuteSelectSQLStatementSoapIn">
+    <wsdl:part name="parameters" element="tns:ExecuteSelectSQLStatement" />
+  </wsdl:message>
+  <wsdl:message name="ExecuteSelectSQLStatementSoapOut">
+    <wsdl:part name="parameters" element="tns:ExecuteSelectSQLStatementResponse" />
+  </wsdl:message>
+  <wsdl:message name="ExecuteStoredProcedureSoapIn">
+    <wsdl:part name="parameters" element="tns:ExecuteStoredProcedure" />
+  </wsdl:message>
+  <wsdl:message name="ExecuteStoredProcedureSoapOut">
+    <wsdl:part name="parameters" element="tns:ExecuteStoredProcedureResponse" />
+  </wsdl:message>
+  <wsdl:message name="ExecuteDatasetStoredProcedureSoapIn">
+    <wsdl:part name="parameters" element="tns:ExecuteDatasetStoredProcedure" />
+  </wsdl:message>
+  <wsdl:message name="ExecuteDatasetStoredProcedureSoapOut">
+    <wsdl:part name="parameters" element="tns:ExecuteDatasetStoredProcedureResponse" />
+  </wsdl:message>
+  <wsdl:message name="ExecuteNonQueryStoredProcedureSoapIn">
+    <wsdl:part name="parameters" element="tns:ExecuteNonQueryStoredProcedure" />
+  </wsdl:message>
+  <wsdl:message name="ExecuteNonQueryStoredProcedureSoapOut">
+    <wsdl:part name="parameters" element="tns:ExecuteNonQueryStoredProcedureResponse" />
+  </wsdl:message>
+  <wsdl:message name="CreateDynamicRecordSoapIn">
+    <wsdl:part name="parameters" element="tns:CreateDynamicRecord" />
+  </wsdl:message>
+  <wsdl:message name="CreateDynamicRecordSoapOut">
+    <wsdl:part name="parameters" element="tns:CreateDynamicRecordResponse" />
+  </wsdl:message>
+  <wsdl:message name="UpdateDynamicRecordSoapIn">
+    <wsdl:part name="parameters" element="tns:UpdateDynamicRecord" />
+  </wsdl:message>
+  <wsdl:message name="UpdateDynamicRecordSoapOut">
+    <wsdl:part name="parameters" element="tns:UpdateDynamicRecordResponse" />
+  </wsdl:message>
+  <wsdl:message name="DeleteDynamicRecordSoapIn">
+    <wsdl:part name="parameters" element="tns:DeleteDynamicRecord" />
+  </wsdl:message>
+  <wsdl:message name="DeleteDynamicRecordSoapOut">
+    <wsdl:part name="parameters" element="tns:DeleteDynamicRecordResponse" />
+  </wsdl:message>
+  <wsdl:portType name="DataAccess_x0020_Web_x0020_ServiceSoap">
+    <wsdl:operation name="ExecuteSQLStatement">
+      <wsdl:documentation xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/">Executes an update/insert statement in the database.</wsdl:documentation>
+      <wsdl:input message="tns:ExecuteSQLStatementSoapIn" />
+      <wsdl:output message="tns:ExecuteSQLStatementSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="ExecuteSelectSQLStatement">
+      <wsdl:documentation xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/">Executes a select statement in the database.</wsdl:documentation>
+      <wsdl:input message="tns:ExecuteSelectSQLStatementSoapIn" />
+      <wsdl:output message="tns:ExecuteSelectSQLStatementSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="ExecuteStoredProcedure">
+      <wsdl:documentation xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/">Executes a stored procedure in the CRM4M database.</wsdl:documentation>
+      <wsdl:input message="tns:ExecuteStoredProcedureSoapIn" />
+      <wsdl:output message="tns:ExecuteStoredProcedureSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="ExecuteDatasetStoredProcedure">
+      <wsdl:documentation xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/">Executes a stored procedure in the CRM4M database, expecting a return value.</wsdl:documentation>
+      <wsdl:input message="tns:ExecuteDatasetStoredProcedureSoapIn" />
+      <wsdl:output message="tns:ExecuteDatasetStoredProcedureSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="ExecuteNonQueryStoredProcedure">
+      <wsdl:documentation xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/">Executes a stored procedure in the CRM4M database, without expecting a return value.</wsdl:documentation>
+      <wsdl:input message="tns:ExecuteNonQueryStoredProcedureSoapIn" />
+      <wsdl:output message="tns:ExecuteNonQueryStoredProcedureSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="CreateDynamicRecord">
+      <wsdl:documentation xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/">Creates an Dynamic Entity Record.</wsdl:documentation>
+      <wsdl:input message="tns:CreateDynamicRecordSoapIn" />
+      <wsdl:output message="tns:CreateDynamicRecordSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="UpdateDynamicRecord">
+      <wsdl:documentation xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/">Updates an Dynamic Entity Record.</wsdl:documentation>
+      <wsdl:input message="tns:UpdateDynamicRecordSoapIn" />
+      <wsdl:output message="tns:UpdateDynamicRecordSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="DeleteDynamicRecord">
+      <wsdl:documentation xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/">Delete an Dynamic Entity Record.</wsdl:documentation>
+      <wsdl:input message="tns:DeleteDynamicRecordSoapIn" />
+      <wsdl:output message="tns:DeleteDynamicRecordSoapOut" />
+    </wsdl:operation>
+  </wsdl:portType>
+  <wsdl:binding name="DataAccess_x0020_Web_x0020_ServiceSoap" type="tns:DataAccess_x0020_Web_x0020_ServiceSoap">
+    <soap:binding transport="http://schemas.xmlsoap.org/soap/http" />
+    <wsdl:operation name="ExecuteSQLStatement">
+      <soap:operation soapAction="http://webportalbridge.ptassoc.com/DataAccess/ExecuteSQLStatement" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="ExecuteSelectSQLStatement">
+      <soap:operation soapAction="http://webportalbridge.ptassoc.com/DataAccess/ExecuteSelectSQLStatement" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="ExecuteStoredProcedure">
+      <soap:operation soapAction="http://webportalbridge.ptassoc.com/DataAccess/ExecuteStoredProcedure" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="ExecuteDatasetStoredProcedure">
+      <soap:operation soapAction="http://webportalbridge.ptassoc.com/DataAccess/ExecuteDatasetStoredProcedure" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="ExecuteNonQueryStoredProcedure">
+      <soap:operation soapAction="http://webportalbridge.ptassoc.com/DataAccess/ExecuteNonQueryStoredProcedure" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="CreateDynamicRecord">
+      <soap:operation soapAction="http://webportalbridge.ptassoc.com/DataAccess/CreateDynamicRecord" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="UpdateDynamicRecord">
+      <soap:operation soapAction="http://webportalbridge.ptassoc.com/DataAccess/UpdateDynamicRecord" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="DeleteDynamicRecord">
+      <soap:operation soapAction="http://webportalbridge.ptassoc.com/DataAccess/DeleteDynamicRecord" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+  </wsdl:binding>
+  <wsdl:binding name="DataAccess_x0020_Web_x0020_ServiceSoap12" type="tns:DataAccess_x0020_Web_x0020_ServiceSoap">
+    <soap12:binding transport="http://schemas.xmlsoap.org/soap/http" />
+    <wsdl:operation name="ExecuteSQLStatement">
+      <soap12:operation soapAction="http://webportalbridge.ptassoc.com/DataAccess/ExecuteSQLStatement" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="ExecuteSelectSQLStatement">
+      <soap12:operation soapAction="http://webportalbridge.ptassoc.com/DataAccess/ExecuteSelectSQLStatement" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="ExecuteStoredProcedure">
+      <soap12:operation soapAction="http://webportalbridge.ptassoc.com/DataAccess/ExecuteStoredProcedure" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="ExecuteDatasetStoredProcedure">
+      <soap12:operation soapAction="http://webportalbridge.ptassoc.com/DataAccess/ExecuteDatasetStoredProcedure" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="ExecuteNonQueryStoredProcedure">
+      <soap12:operation soapAction="http://webportalbridge.ptassoc.com/DataAccess/ExecuteNonQueryStoredProcedure" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="CreateDynamicRecord">
+      <soap12:operation soapAction="http://webportalbridge.ptassoc.com/DataAccess/CreateDynamicRecord" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="UpdateDynamicRecord">
+      <soap12:operation soapAction="http://webportalbridge.ptassoc.com/DataAccess/UpdateDynamicRecord" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="DeleteDynamicRecord">
+      <soap12:operation soapAction="http://webportalbridge.ptassoc.com/DataAccess/DeleteDynamicRecord" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+  </wsdl:binding>
+  <wsdl:service name="DataAccess_x0020_Web_x0020_Service">
+    <wsdl:documentation xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/">The DataAccess web service provides pass thru capability to handle inserting, updating and selecting data for tables stored in CRM4M.</wsdl:documentation>
+    <wsdl:port name="DataAccess_x0020_Web_x0020_ServiceSoap" binding="tns:DataAccess_x0020_Web_x0020_ServiceSoap">
+      <soap:address location="http://wpservices.hrpa.ca/WebPortalBridge/DataAccess.asmx" />
+    </wsdl:port>
+    <wsdl:port name="DataAccess_x0020_Web_x0020_ServiceSoap12" binding="tns:DataAccess_x0020_Web_x0020_ServiceSoap12">
+      <soap12:address location="http://wpservices.hrpa.ca/WebPortalBridge/DataAccess.asmx" />
+    </wsdl:port>
+  </wsdl:service>
+</wsdl:definitions>

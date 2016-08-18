@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<discovery xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns="http://schemas.xmlsoap.org/disco/">
+  <contractRef ref="http://wpservices.hrpa.ca/WebPortalBridge/Authentication.asmx?wsdl" docRef="http://wpservices.hrpa.ca/WebPortalBridge/Authentication.asmx" xmlns="http://schemas.xmlsoap.org/disco/scl/" />
+  <soap address="http://wpservices.hrpa.ca/WebPortalBridge/Authentication.asmx" xmlns:q1="http://webportalbridge.ptassoc.com/Authentication/" binding="q1:Authentication_x005F_x0020_Web_x005F_x0020_ServiceSoap" xmlns="http://schemas.xmlsoap.org/disco/soap/" />
+  <soap address="http://wpservices.hrpa.ca/WebPortalBridge/Authentication.asmx" xmlns:q2="http://webportalbridge.ptassoc.com/Authentication/" binding="q2:Authentication_x005F_x0020_Web_x005F_x0020_ServiceSoap12" xmlns="http://schemas.xmlsoap.org/disco/soap/" />
+</discovery>
