@@ -1,0 +1,682 @@
+14:48:07  Logging is Enabled on the server
+14:48:09  The Windows Secure Application Manager proxy (version 8.1.5.38093) was started
+14:48:09  establishing IVE session to vpn.pnmac.com
+14:48:10  IVE session established to vpn.pnmac.com
+14:48:10  UDP listener established
+14:48:12  File sharing Disabled
+14:48:13  IVE DNS lookup for sf.symcb.com returned 23.7.133.163
+14:48:20  IVE DNS lookup for Itconfig.sonata-software.com returned 121.244.168.47
+14:48:31  IVE DNS lookup for ctldl.windowsupdate.com returned 184.51.0.218
+14:48:31  IVE DNS lookup for ctldl.windowsupdate.com returned 184.51.0.234
+14:48:31  IVE DNS lookup for ocsp.verisign.com returned 23.7.139.27
+14:48:32  IVE DNS lookup for crl.verisign.com returned 23.7.133.163
+14:48:33  IVE DNS lookup for csc3-2010-crl.verisign.com returned 23.7.133.163
+14:48:36  IVE DNS lookup for wpad.SONATA.LOCAL: host not found
+14:48:37  IVE NetBIOS name lookup for WPAD: host not found
+14:48:38  IVE NetBIOS name lookup for WPAD: host not found
+14:48:38  IVE NetBIOS name lookup for WPAD: host not found
+14:49:56  IVE DNS lookup for play.google.com returned 216.58.219.46
+14:51:17  IVE DNS lookup for cdp1.public-trust.com returned 72.21.91.8
+14:51:45  IVE DNS lookup for dns.msftncsi.com returned 131.107.255.255
+14:53:59  IVE DNS lookup for crl.microsoft.com returned 184.51.0.243
+14:53:59  IVE DNS lookup for crl.microsoft.com returned 184.51.0.226
+14:54:03  IVE DNS lookup for go.microsoft.com returned 23.212.44.114
+14:54:04  IVE DNS lookup for download.microsoft.com returned 23.209.177.168
+14:54:09  IVE DNS lookup for visualstudiogallery.msdn.microsoft.com returned 65.52.103.91
+14:54:16  IVE DNS lookup for code.msdn.microsoft.com returned 65.52.103.91
+14:54:39  IVE DNS lookup for clients6.google.com returned 216.58.217.206
+14:54:47  IVE DNS lookup for mail.google.com returned 216.58.219.37
+14:54:55  IVE DNS lookup for clients1.google.com returned 216.58.217.206
+14:55:39  IVE DNS lookup for bg1vmlyfe01.sonata.local: host not found
+14:55:40  IVE DNS lookup for gn.symcb.com returned 23.7.133.163
+14:55:40  IVE DNS lookup for mail.sonata-software.com returned 220.227.93.160
+14:55:40  IVE DNS lookup for mail.sonata-software.com returned 121.244.168.160
+14:55:40  IVE DNS lookup for gn.symcb.com returned 23.7.133.163
+14:55:40  IVE DNS lookup for g2.symcb.com returned 23.7.139.27
+14:55:40  IVE DNS lookup for g1.symcb.com returned 23.7.133.163
+14:55:41  IVE DNS lookup for gn.symcd.com returned 23.7.139.27
+14:55:42  IVE DNS lookup for bglbg4phcaht01.sonata.local: host not found
+14:55:49  IVE DNS lookup for 6.dr-in.skype-cr.akadns.net returned 104.211.163.135
+14:55:49  IVE DNS lookup for 6.dr-in.skype-cr.akadns.net returned 104.211.164.185
+14:55:49  IVE DNS lookup for 6.dr-in.skype-cr.akadns.net returned 104.211.164.136
+14:55:49  IVE DNS lookup for 6.dr-in.skype-cr.akadns.net returned 104.211.162.37
+14:55:49  IVE DNS lookup for 6.dr-in.skype-cr.akadns.net returned 104.211.163.216
+14:55:49  IVE DNS lookup for 6.dr-in.skype-cr.akadns.net returned 104.211.163.196
+14:55:49  IVE DNS lookup for 6.dr-in.skype-cr.akadns.net returned 104.211.163.149
+14:55:49  IVE DNS lookup for 6.dr-in.skype-cr.akadns.net returned 104.211.162.133
+14:55:49  IVE DNS lookup for 4.dr-in.skype-cr.akadns.net returned 104.211.164.53
+14:55:49  IVE DNS lookup for 4.dr-in.skype-cr.akadns.net returned 104.211.162.130
+14:55:49  IVE DNS lookup for 4.dr-in.skype-cr.akadns.net returned 104.211.163.149
+14:55:49  IVE DNS lookup for 4.dr-in.skype-cr.akadns.net returned 104.211.163.197
+14:55:49  IVE DNS lookup for 4.dr-in.skype-cr.akadns.net returned 104.211.164.52
+14:55:49  IVE DNS lookup for 4.dr-in.skype-cr.akadns.net returned 104.211.163.78
+14:55:49  IVE DNS lookup for 4.dr-in.skype-cr.akadns.net returned 104.211.162.153
+14:55:49  IVE DNS lookup for 4.dr-in.skype-cr.akadns.net returned 104.211.164.124
+14:55:49  IVE DNS lookup for 5.dr-in.skype-cr.akadns.net returned 104.211.162.153
+14:55:49  IVE DNS lookup for 5.dr-in.skype-cr.akadns.net returned 104.211.164.52
+14:55:49  IVE DNS lookup for 5.dr-in.skype-cr.akadns.net returned 104.211.161.49
+14:55:49  IVE DNS lookup for 5.dr-in.skype-cr.akadns.net returned 104.211.161.239
+14:55:49  IVE DNS lookup for 5.dr-in.skype-cr.akadns.net returned 104.211.163.50
+14:55:49  IVE DNS lookup for 5.dr-in.skype-cr.akadns.net returned 104.211.163.197
+14:55:49  IVE DNS lookup for 5.dr-in.skype-cr.akadns.net returned 104.211.164.8
+14:55:49  IVE DNS lookup for 5.dr-in.skype-cr.akadns.net returned 104.211.161.216
+14:55:49  IVE DNS lookup for 1.dr-in.skype-cr.akadns.net returned 104.211.164.99
+14:55:49  IVE DNS lookup for 1.dr-in.skype-cr.akadns.net returned 104.211.163.170
+14:55:49  IVE DNS lookup for 1.dr-in.skype-cr.akadns.net returned 104.211.164.54
+14:55:49  IVE DNS lookup for 1.dr-in.skype-cr.akadns.net returned 104.211.163.196
+14:55:49  IVE DNS lookup for 1.dr-in.skype-cr.akadns.net returned 104.211.164.95
+14:55:49  IVE DNS lookup for 1.dr-in.skype-cr.akadns.net returned 104.211.160.114
+14:55:49  IVE DNS lookup for 1.dr-in.skype-cr.akadns.net returned 104.211.163.7
+14:55:49  IVE DNS lookup for 1.dr-in.skype-cr.akadns.net returned 104.211.161.162
+14:55:49  IVE DNS lookup for 1.dr-in.skype-cr.akadns.net returned 104.211.164.99
+14:55:49  IVE DNS lookup for 1.dr-in.skype-cr.akadns.net returned 104.211.163.170
+14:55:49  IVE DNS lookup for 1.dr-in.skype-cr.akadns.net returned 104.211.164.54
+14:55:49  IVE DNS lookup for 1.dr-in.skype-cr.akadns.net returned 104.211.163.196
+14:55:49  IVE DNS lookup for 1.dr-in.skype-cr.akadns.net returned 104.211.164.95
+14:55:49  IVE DNS lookup for 1.dr-in.skype-cr.akadns.net returned 104.211.160.114
+14:55:49  IVE DNS lookup for 1.dr-in.skype-cr.akadns.net returned 104.211.163.7
+14:55:49  IVE DNS lookup for 1.dr-in.skype-cr.akadns.net returned 104.211.161.162
+14:55:49  IVE DNS lookup for 0.dr-in.skype-cr.akadns.net returned 104.211.163.245
+14:55:49  IVE DNS lookup for 0.dr-in.skype-cr.akadns.net returned 104.211.164.136
+14:55:49  IVE DNS lookup for 0.dr-in.skype-cr.akadns.net returned 104.211.164.83
+14:55:49  IVE DNS lookup for 0.dr-in.skype-cr.akadns.net returned 104.211.164.75
+14:55:49  IVE DNS lookup for 0.dr-in.skype-cr.akadns.net returned 104.211.163.16
+14:55:49  IVE DNS lookup for 0.dr-in.skype-cr.akadns.net returned 104.211.161.173
+14:55:49  IVE DNS lookup for 0.dr-in.skype-cr.akadns.net returned 104.211.163.202
+14:55:49  IVE DNS lookup for 0.dr-in.skype-cr.akadns.net returned 104.211.166.111
+14:56:19  IVE DNS lookup for BGLBG4W8DC01.SONATA.LOCAL: host not found
+14:56:59  IVE DNS lookup for plus.google.com returned 216.58.219.46
+14:57:04  IVE DNS lookup for csi.gstatic.com returned 216.58.212.227
+14:57:04  IVE DNS lookup for csi.gstatic.com returned 216.58.212.163
+14:57:04  IVE DNS lookup for csi.gstatic.com returned 216.58.212.131
+14:57:04  IVE DNS lookup for csi.gstatic.com returned 172.217.18.131
+14:57:04  IVE DNS lookup for csi.gstatic.com returned 172.217.17.67
+14:57:04  IVE DNS lookup for csi.gstatic.com returned 216.58.209.131
+14:57:04  IVE DNS lookup for csi.gstatic.com returned 216.58.212.195
+14:57:04  IVE DNS lookup for csi.gstatic.com returned 216.58.209.99
+14:59:07  IVE DNS lookup for 1.client-channel.google.com returned 173.194.203.189
+14:59:12  IVE DNS lookup for ssl.gstatic.com returned 216.58.219.35
+14:59:13  IVE DNS lookup for people-pa.clients6.google.com returned 216.58.216.42
+14:59:40  IVE DNS lookup for drive.google.com returned 216.58.217.206
+15:00:51  IVE DNS lookup for bglbg4sccmsvr.sonata.local: host not found
+15:05:57  IVE DNS lookup for apis.google.com returned 216.58.219.46
+15:05:57  IVE DNS lookup for hangouts.google.com returned 216.58.219.46
+15:05:58  IVE DNS lookup for lh6.googleusercontent.com returned 216.58.217.193
+15:05:58  IVE DNS lookup for accounts.google.com returned 216.58.217.205
+15:05:58  IVE DNS lookup for clients4.google.com returned 216.58.219.46
+15:05:58  IVE DNS lookup for lh3.googleusercontent.com returned 216.58.219.33
+15:05:58  IVE DNS lookup for lh4.googleusercontent.com returned 216.58.217.193
+15:05:58  IVE DNS lookup for lh5.googleusercontent.com returned 216.58.219.33
+15:12:30  IVE DNS lookup for ocsp.geotrust.com returned 23.7.139.27
+15:12:31  IVE DNS lookup for crl.geotrust.com returned 23.7.133.163
+15:12:31  IVE DNS lookup for gtssl-ocsp.geotrust.com returned 23.7.139.27
+15:12:31  IVE DNS lookup for gtssl-crl.geotrust.com returned 23.7.133.163
+15:14:51  IVE DNS lookup for clients5.google.com returned 216.58.219.46
+15:16:02  IVE DNS lookup for bglbg4phcaht01.sonata.local: host not found
+15:16:14  IVE DNS lookup for 0.docs.google.com returned 173.194.203.189
+15:16:14  IVE DNS lookup for docs.google.com returned 216.58.219.46
+15:16:14  IVE DNS lookup for fonts.gstatic.com returned 216.58.219.35
+15:16:15  IVE DNS lookup for fonts.googleapis.com returned 173.194.203.95
+15:16:15  IVE DNS lookup for www-gmi-opensocial.googleusercontent.com returned 216.58.219.33
+15:16:15  IVE DNS lookup for www.gstatic.com returned 216.58.219.35
+15:16:19  IVE DNS lookup for www-gmc-opensocial.googleusercontent.com returned 216.58.219.33
+15:16:20  IVE DNS lookup for lh4.google.com returned 216.58.219.46
+15:16:44  IVE DNS lookup for upload.docs.google.com returned 216.58.219.47
+15:17:04  IVE DNS lookup for mobile.pipe.aria.microsoft.com returned 40.118.214.164
+15:17:13  IVE DNS lookup for safebrowsing.google.com returned 216.58.217.206
+15:17:14  IVE DNS lookup for safebrowsing-cache.google.com returned 216.58.219.46
+15:24:17  IVE DNS lookup for gg.google.com returned 216.58.219.46
+15:25:36  IVE DNS lookup for 2.dr-in.skype-cr.akadns.net returned 104.211.164.83
+15:25:36  IVE DNS lookup for 2.dr-in.skype-cr.akadns.net returned 104.211.166.111
+15:25:36  IVE DNS lookup for 2.dr-in.skype-cr.akadns.net returned 104.211.161.49
+15:25:36  IVE DNS lookup for 2.dr-in.skype-cr.akadns.net returned 104.211.162.57
+15:25:36  IVE DNS lookup for 2.dr-in.skype-cr.akadns.net returned 104.211.164.53
+15:25:36  IVE DNS lookup for 2.dr-in.skype-cr.akadns.net returned 104.211.162.203
+15:25:36  IVE DNS lookup for 2.dr-in.skype-cr.akadns.net returned 104.211.163.245
+15:25:36  IVE DNS lookup for 2.dr-in.skype-cr.akadns.net returned 104.211.163.20
+15:25:59  IVE DNS lookup for ajax.aspnetcdn.com returned 72.21.81.200
+15:25:59  IVE DNS lookup for acdn.adnxs.com returned 151.101.25.108
+15:25:59  IVE DNS lookup for bs.serving-sys.com returned 12.129.210.53
+15:25:59  IVE DNS lookup for secure-ds.serving-sys.com returned 23.213.127.133
+15:25:59  IVE DNS lookup for ads1.msads.net returned 23.43.186.73
+15:25:59  IVE DNS lookup for static.skypeassets.com returned 23.211.237.96
+15:25:59  IVE DNS lookup for a248.e.akamai.net returned 184.51.0.232
+15:25:59  IVE DNS lookup for a248.e.akamai.net returned 184.51.0.251
+15:25:59  IVE DNS lookup for a248.e.akamai.net returned 184.51.0.243
+15:25:59  IVE DNS lookup for a248.e.akamai.net returned 184.51.0.240
+15:25:59  IVE DNS lookup for a248.e.akamai.net returned 184.51.0.218
+15:26:00  IVE DNS lookup for ocsp.omniroot.com returned 72.21.91.8
+15:26:00  IVE DNS lookup for ocsp.omniroot.com returned 72.21.91.8
+15:26:01  IVE DNS lookup for b.config.skype.com returned 13.107.3.128
+15:26:02  IVE DNS lookup for ib.adnxs.com returned 104.254.150.11
+15:26:02  IVE DNS lookup for ib.adnxs.com returned 104.254.150.58
+15:26:02  IVE DNS lookup for ib.adnxs.com returned 104.254.150.59
+15:26:02  IVE DNS lookup for ib.adnxs.com returned 104.254.150.21
+15:26:02  IVE DNS lookup for ib.adnxs.com returned 104.254.150.79
+15:26:02  IVE DNS lookup for ib.adnxs.com returned 104.254.150.77
+15:26:02  IVE DNS lookup for ib.adnxs.com returned 104.254.150.37
+15:26:02  IVE DNS lookup for ib.adnxs.com returned 104.254.150.4
+15:26:04  IVE DNS lookup for secure-lax.adnxs.com returned 104.254.150.4
+15:26:04  IVE DNS lookup for secure-lax.adnxs.com returned 104.254.150.59
+15:26:04  IVE DNS lookup for secure-lax.adnxs.com returned 104.254.150.79
+15:26:04  IVE DNS lookup for secure-lax.adnxs.com returned 104.254.150.21
+15:26:04  IVE DNS lookup for secure-lax.adnxs.com returned 104.254.150.11
+15:26:04  IVE DNS lookup for secure-lax.adnxs.com returned 104.254.150.37
+15:26:04  IVE DNS lookup for secure-lax.adnxs.com returned 104.254.150.77
+15:26:04  IVE DNS lookup for secure-lax.adnxs.com returned 104.254.150.58
+15:26:05  IVE DNS lookup for www.public-trust.com returned 64.18.20.10
+15:26:05  IVE DNS lookup for www.public-trust.com returned 64.18.17.135
+15:26:07  IVE DNS lookup for pipe.skype.com returned 40.118.214.164
+15:26:31  IVE DNS lookup for bg1vmlyfe01.sonata.local: host not found
+15:27:09  IVE DNS lookup for www.google-analytics.com returned 216.58.219.46
+15:27:13  IVE DNS lookup for api.bing.com returned 13.107.5.80
+15:27:13  IVE DNS lookup for www.bing.com returned 204.79.197.200
+15:27:13  IVE DNS lookup for www.bing.com returned 204.79.197.200
+15:27:20  IVE DNS lookup for www.google.co.in returned 216.58.219.35
+15:27:21  IVE DNS lookup for ajax.googleapis.com returned 216.58.193.202
+15:27:21  IVE DNS lookup for ajax.googleapis.com returned 216.58.217.202
+15:27:21  IVE DNS lookup for ajax.googleapis.com returned 216.58.219.10
+15:27:21  IVE DNS lookup for ajax.googleapis.com returned 172.217.4.138
+15:27:21  IVE DNS lookup for ajax.googleapis.com returned 216.58.216.10
+15:27:21  IVE DNS lookup for ajax.googleapis.com returned 216.58.219.42
+15:30:51  IVE DNS lookup for bglbg4sccmsvr.sonata.local: host not found
+15:31:08  IVE DNS lookup for wpad.SONATA.LOCAL: host not found
+15:31:09  IVE NetBIOS name lookup for WPAD: host not found
+15:31:10  IVE NetBIOS name lookup for WPAD: host not found
+15:31:10  IVE NetBIOS name lookup for WPAD: host not found
+15:34:30  IVE DNS lookup for 7.dr-in.skype-cr.akadns.net returned 104.211.167.146
+15:34:30  IVE DNS lookup for 7.dr-in.skype-cr.akadns.net returned 104.211.160.247
+15:34:30  IVE DNS lookup for 7.dr-in.skype-cr.akadns.net returned 104.211.163.129
+15:34:30  IVE DNS lookup for 7.dr-in.skype-cr.akadns.net returned 104.211.164.39
+15:34:30  IVE DNS lookup for 7.dr-in.skype-cr.akadns.net returned 104.211.161.162
+15:34:30  IVE DNS lookup for 7.dr-in.skype-cr.akadns.net returned 104.211.161.239
+15:34:30  IVE DNS lookup for 7.dr-in.skype-cr.akadns.net returned 104.211.166.86
+15:34:30  IVE DNS lookup for 7.dr-in.skype-cr.akadns.net returned 104.211.160.114
+15:36:15  IVE DNS lookup for ci3.googleusercontent.com returned 216.58.217.193
+15:36:15  IVE NetBIOS name lookup for WPAD: host not found
+15:36:16  IVE NetBIOS name lookup for WPAD: host not found
+15:36:16  IVE NetBIOS name lookup for WPAD: host not found
+15:36:17  IVE DNS lookup for www.google.com returned 216.58.219.36
+15:36:17  IVE DNS lookup for calendar.google.com returned 216.58.217.206
+15:36:17  IVE DNS lookup for googleads.g.doubleclick.net returned 216.58.217.194
+15:36:17  IVE NetBIOS name lookup for WPAD: host not found
+15:36:18  IVE NetBIOS name lookup for WPAD: host not found
+15:36:19  IVE NetBIOS name lookup for WPAD: host not found
+15:36:20  IVE NetBIOS name lookup for WPAD: host not found
+15:36:21  IVE NetBIOS name lookup for WPAD: host not found
+15:36:21  IVE NetBIOS name lookup for WPAD: host not found
+15:36:22  IVE NetBIOS name lookup for WPAD: host not found
+15:36:23  IVE NetBIOS name lookup for WPAD: host not found
+15:36:23  IVE DNS lookup for accounts.youtube.com returned 216.58.217.206
+15:36:23  IVE DNS lookup for content.googleapis.com returned 216.58.193.202
+15:36:23  IVE DNS lookup for content.googleapis.com returned 172.217.4.138
+15:36:23  IVE DNS lookup for content.googleapis.com returned 216.58.216.42
+15:36:23  IVE DNS lookup for content.googleapis.com returned 216.58.217.202
+15:36:23  IVE DNS lookup for content.googleapis.com returned 172.217.4.170
+15:36:24  IVE NetBIOS name lookup for WPAD: host not found
+15:36:24  IVE NetBIOS name lookup for WPAD: host not found
+15:36:25  IVE NetBIOS name lookup for WPAD: host not found
+15:36:26  IVE NetBIOS name lookup for WPAD: host not found
+15:36:27  IVE NetBIOS name lookup for WPAD: host not found
+15:36:27  IVE NetBIOS name lookup for WPAD: host not found
+15:36:28  IVE NetBIOS name lookup for WPAD: host not found
+15:36:29  IVE NetBIOS name lookup for WPAD: host not found
+15:36:30  IVE NetBIOS name lookup for WPAD: host not found
+15:36:31  IVE NetBIOS name lookup for WPAD: host not found
+15:36:32  IVE NetBIOS name lookup for WPAD: host not found
+15:36:32  IVE NetBIOS name lookup for WPAD: host not found
+15:36:33  IVE NetBIOS name lookup for WPAD: host not found
+15:37:00  IVE NetBIOS name lookup for WPAD: host not found
+15:37:00  IVE NetBIOS name lookup for WPAD: host not found
+15:37:01  IVE NetBIOS name lookup for WPAD: host not found
+15:37:02  IVE NetBIOS name lookup for WPAD: host not found
+15:37:03  IVE NetBIOS name lookup for WPAD: host not found
+15:37:03  IVE NetBIOS name lookup for WPAD: host not found
+15:37:04  IVE NetBIOS name lookup for WPAD: host not found
+15:37:05  IVE NetBIOS name lookup for WPAD: host not found
+15:37:06  IVE NetBIOS name lookup for WPAD: host not found
+15:37:06  IVE NetBIOS name lookup for WPAD: host not found
+15:37:07  IVE NetBIOS name lookup for WPAD: host not found
+15:37:08  IVE NetBIOS name lookup for WPAD: host not found
+15:37:09  IVE NetBIOS name lookup for WPAD: host not found
+15:37:10  IVE NetBIOS name lookup for WPAD: host not found
+15:37:10  IVE NetBIOS name lookup for WPAD: host not found
+15:37:11  IVE NetBIOS name lookup for WPAD: host not found
+15:37:12  IVE NetBIOS name lookup for WPAD: host not found
+15:37:13  IVE NetBIOS name lookup for WPAD: host not found
+15:37:13  IVE DNS lookup for www.microsoft.com returned 23.213.101.13
+15:37:14  IVE NetBIOS name lookup for WPAD: host not found
+15:37:15  IVE NetBIOS name lookup for WPAD: host not found
+15:37:16  IVE NetBIOS name lookup for WPAD: host not found
+15:37:16  IVE NetBIOS name lookup for WPAD: host not found
+15:37:17  IVE NetBIOS name lookup for WPAD: host not found
+15:37:18  IVE NetBIOS name lookup for WPAD: host not found
+15:37:19  IVE NetBIOS name lookup for WPAD: host not found
+15:37:19  IVE NetBIOS name lookup for WPAD: host not found
+15:37:20  IVE NetBIOS name lookup for WPAD: host not found
+15:37:21  IVE NetBIOS name lookup for WPAD: host not found
+15:37:22  IVE NetBIOS name lookup for WPAD: host not found
+15:37:23  IVE NetBIOS name lookup for WPAD: host not found
+15:37:23  IVE DNS lookup for dh.serving-sys.com returned 52.28.130.224
+15:37:23  IVE DNS lookup for dh.serving-sys.com returned 52.29.143.46
+15:37:23  IVE DNS lookup for dh.serving-sys.com returned 52.58.58.180
+15:37:23  IVE DNS lookup for dh.serving-sys.com returned 52.29.74.117
+15:37:23  IVE DNS lookup for dh.serving-sys.com returned 52.59.135.95
+15:37:23  IVE DNS lookup for dh.serving-sys.com returned 52.28.10.92
+15:37:23  IVE DNS lookup for dh.serving-sys.com returned 52.29.111.139
+15:37:23  IVE DNS lookup for dh.serving-sys.com returned 52.28.219.214
+15:37:24  IVE NetBIOS name lookup for WPAD: host not found
+15:37:24  IVE NetBIOS name lookup for WPAD: host not found
+15:37:25  IVE NetBIOS name lookup for WPAD: host not found
+15:37:26  IVE NetBIOS name lookup for WPAD: host not found
+15:37:27  IVE NetBIOS name lookup for WPAD: host not found
+15:37:27  IVE NetBIOS name lookup for WPAD: host not found
+15:39:19  IVE DNS lookup for www-driveviewer-opensocial.googleusercontent.com returned 216.58.219.33
+15:39:31  IVE DNS lookup for clients2.google.com returned 216.58.219.46
+15:39:38  IVE DNS lookup for lh3.google.com returned 216.58.217.206
+15:39:41  IVE DNS lookup for clientmetrics-pa.googleapis.com returned 216.58.219.10
+15:39:41  IVE DNS lookup for clientmetrics-pa.googleapis.com returned 172.217.4.170
+15:39:41  IVE DNS lookup for clientmetrics-pa.googleapis.com returned 216.58.216.10
+15:39:41  IVE DNS lookup for clientmetrics-pa.googleapis.com returned 216.58.219.42
+15:39:41  IVE DNS lookup for clientmetrics-pa.googleapis.com returned 216.58.193.202
+15:39:41  IVE DNS lookup for clientmetrics-pa.googleapis.com returned 172.217.4.138
+15:39:41  IVE DNS lookup for www.youtube.com returned 216.58.219.46
+15:39:41  IVE DNS lookup for cello.client-channel.google.com returned 173.194.203.189
+15:40:34  IVE DNS lookup for bglbg4phcaht01.sonata.local: host not found
+15:40:40  IVE DNS lookup for id.google.co.in returned 216.58.193.195
+15:43:57  IVE DNS lookup for stackoverflow.com returned 151.101.193.69
+15:43:57  IVE DNS lookup for stackoverflow.com returned 151.101.1.69
+15:43:57  IVE DNS lookup for stackoverflow.com returned 151.101.129.69
+15:43:57  IVE DNS lookup for stackoverflow.com returned 151.101.65.69
+15:43:58  IVE DNS lookup for cdn.sstatic.net returned 151.101.129.69
+15:43:58  IVE DNS lookup for cdn.sstatic.net returned 151.101.193.69
+15:43:58  IVE DNS lookup for cdn.sstatic.net returned 151.101.65.69
+15:43:58  IVE DNS lookup for cdn.sstatic.net returned 151.101.1.69
+15:43:58  IVE DNS lookup for www.gravatar.com returned 192.0.73.2
+15:43:58  IVE DNS lookup for i.stack.imgur.com returned 104.16.108.18
+15:43:58  IVE DNS lookup for i.stack.imgur.com returned 104.16.112.18
+15:43:58  IVE DNS lookup for i.stack.imgur.com returned 104.16.111.18
+15:43:58  IVE DNS lookup for i.stack.imgur.com returned 104.16.109.18
+15:43:58  IVE DNS lookup for i.stack.imgur.com returned 104.16.110.18
+15:43:59  IVE DNS lookup for engine.adzerk.net returned 23.23.73.103
+15:43:59  IVE DNS lookup for engine.adzerk.net returned 54.225.161.140
+15:43:59  IVE DNS lookup for engine.adzerk.net returned 54.225.152.222
+15:43:59  IVE DNS lookup for engine.adzerk.net returned 107.20.174.100
+15:43:59  IVE DNS lookup for engine.adzerk.net returned 23.23.80.175
+15:43:59  IVE DNS lookup for engine.adzerk.net returned 54.235.146.142
+15:43:59  IVE DNS lookup for ssum-sec.casalemedia.com returned 23.209.176.169
+15:43:59  IVE DNS lookup for edge.skype.com returned 13.107.3.128
+15:44:00  IVE DNS lookup for pixel.quantserve.com returned 64.95.32.50
+15:44:00  IVE DNS lookup for pixel.quantserve.com returned 64.95.32.21
+15:44:00  IVE DNS lookup for pixel.quantserve.com returned 64.95.32.15
+15:44:00  IVE DNS lookup for pixel.quantserve.com returned 64.95.32.27
+15:44:00  IVE DNS lookup for pixel.quantserve.com returned 64.95.32.44
+15:44:00  IVE DNS lookup for pixel.quantserve.com returned 64.95.32.53
+15:44:00  IVE DNS lookup for pixel.quantserve.com returned 64.95.32.25
+15:44:00  IVE DNS lookup for pixel.quantserve.com returned 64.95.32.56
+15:44:00  IVE DNS lookup for b.scorecardresearch.com returned 184.51.1.57
+15:44:00  IVE DNS lookup for b.scorecardresearch.com returned 184.51.1.43
+15:44:00  IVE DNS lookup for qa.sockets.stackexchange.com returned 198.252.206.25
+15:44:02  IVE DNS lookup for clc.stackoverflow.com returned 198.252.206.17
+15:44:04  IVE DNS lookup for css-tricks.com returned 64.207.186.49
+15:44:05  IVE DNS lookup for cdnjs.cloudflare.com returned 198.41.214.67
+15:44:05  IVE DNS lookup for cdnjs.cloudflare.com returned 198.41.215.68
+15:44:05  IVE DNS lookup for cdnjs.cloudflare.com returned 198.41.215.66
+15:44:05  IVE DNS lookup for cdnjs.cloudflare.com returned 198.41.214.68
+15:44:05  IVE DNS lookup for cdnjs.cloudflare.com returned 198.41.215.67
+15:44:05  IVE DNS lookup for secure.gravatar.com returned 192.0.73.2
+15:44:05  IVE DNS lookup for ad.doubleclick.net returned 216.58.219.38
+15:44:05  IVE DNS lookup for stats.wp.com returned 192.0.76.3
+15:44:05  IVE DNS lookup for assets.codepen.io returned 104.25.15.31
+15:44:05  IVE DNS lookup for assets.codepen.io returned 104.25.14.31
+15:44:06  IVE DNS lookup for i2.wp.com returned 192.0.77.2
+15:44:06  IVE DNS lookup for v0.wordpress.com returned 192.0.78.13
+15:44:06  IVE DNS lookup for v0.wordpress.com returned 192.0.78.12
+15:44:06  IVE DNS lookup for s3.buysellads.com returned 94.46.159.17
+15:44:07  IVE DNS lookup for wufoo.sp1.convertro.com returned 52.202.122.117
+15:44:07  IVE DNS lookup for wufoo.sp1.convertro.com returned 107.21.3.113
+15:44:07  IVE DNS lookup for wufoo.sp1.convertro.com returned 54.85.122.232
+15:44:07  IVE DNS lookup for wufoo.sp1.convertro.com returned 54.85.160.194
+15:44:07  IVE DNS lookup for wufoo.sp1.convertro.com returned 52.1.51.239
+15:44:07  IVE DNS lookup for wufoo.sp1.convertro.com returned 52.2.1.15
+15:44:07  IVE DNS lookup for wufoo.sp1.convertro.com returned 52.1.50.251
+15:44:07  IVE DNS lookup for wufoo.sp1.convertro.com returned 52.200.181.203
+15:44:07  IVE DNS lookup for srv.buysellads.com returned 104.20.18.28
+15:44:07  IVE DNS lookup for srv.buysellads.com returned 104.20.19.28
+15:44:41  IVE DNS lookup for pixel.wp.com returned 192.0.76.3
+15:45:31  IVE DNS lookup for BGLBG4W8DC01.SONATA.LOCAL: host not found
+15:45:38  IVE DNS lookup for wpad.SONATA.LOCAL: host not found
+15:45:38  IVE NetBIOS name lookup for WPAD: host not found
+15:45:39  IVE NetBIOS name lookup for WPAD: host not found
+15:45:40  IVE NetBIOS name lookup for WPAD: host not found
+15:45:40  IVE NetBIOS name lookup for WPAD: host not found
+15:45:41  IVE NetBIOS name lookup for WPAD: host not found
+15:45:42  IVE NetBIOS name lookup for WPAD: host not found
+15:46:13  IVE NetBIOS name lookup for WPAD: host not found
+15:46:14  IVE NetBIOS name lookup for WPAD: host not found
+15:46:15  IVE NetBIOS name lookup for WPAD: host not found
+15:46:16  IVE NetBIOS name lookup for WPAD: host not found
+15:46:16  IVE NetBIOS name lookup for WPAD: host not found
+15:46:17  IVE NetBIOS name lookup for WPAD: host not found
+15:46:19  IVE DNS lookup for bglbg4phcaht01.sonata.local: host not found
+15:46:53  IVE DNS lookup for bglbg4sccmsvr.sonata.local: host not found
+15:49:17  IVE DNS lookup for bg1vmlyfe01.sonata.local: host not found
+15:50:41  IVE DNS lookup for www.w3schools.com returned 72.21.91.8
+15:50:42  IVE DNS lookup for translate.google.com returned 216.58.217.206
+15:50:42  IVE DNS lookup for www.googletagservices.com returned 172.217.4.162
+15:50:43  IVE DNS lookup for www.facebook.com returned 173.252.90.36
+15:50:43  IVE DNS lookup for twitter.com returned 199.16.156.198
+15:50:43  IVE DNS lookup for twitter.com returned 199.16.156.70
+15:50:43  IVE DNS lookup for twitter.com returned 199.16.156.230
+15:50:43  IVE DNS lookup for twitter.com returned 199.16.156.102
+15:50:43  IVE DNS lookup for translate.googleapis.com returned 173.194.203.95
+15:50:44  IVE DNS lookup for stats.g.doubleclick.net returned 173.194.203.155
+15:50:44  IVE DNS lookup for stats.g.doubleclick.net returned 173.194.203.157
+15:50:44  IVE DNS lookup for stats.g.doubleclick.net returned 173.194.203.156
+15:50:44  IVE DNS lookup for stats.g.doubleclick.net returned 173.194.203.154
+15:50:44  IVE DNS lookup for securepubads.g.doubleclick.net returned 216.58.217.194
+15:50:44  IVE DNS lookup for cse.google.com returned 216.58.219.46
+15:50:45  IVE DNS lookup for cm.g.doubleclick.net returned 216.58.193.194
+15:50:45  IVE DNS lookup for pagead2.googlesyndication.com returned 172.217.4.162
+15:50:45  IVE DNS lookup for tpc.googlesyndication.com returned 216.58.217.193
+15:50:45  IVE DNS lookup for pixel.adsafeprotected.com returned 69.172.216.55
+15:50:45  IVE DNS lookup for www.googleadservices.com returned 216.58.193.194
+15:50:45  IVE DNS lookup for rtbcdn.doubleverify.com returned 23.209.178.214
+15:50:45  IVE DNS lookup for adx.g.doubleclick.net returned 172.217.4.162
+15:50:45  IVE DNS lookup for a.rfihub.com returned 198.8.71.239
+15:50:45  IVE DNS lookup for sjc-156.sjc-rtb1.rfihub.com returned 198.8.71.225
+15:50:45  IVE DNS lookup for s1.2mdn.net returned 216.58.219.38
+15:50:45  IVE DNS lookup for googleads4.g.doubleclick.net returned 216.58.193.194
+15:50:46  IVE DNS lookup for adclick.g.doubleclick.net returned 216.58.193.194
+15:50:46  IVE DNS lookup for p4-hp6e7mptw7qeo-mop4b5a4uvhr7biv-if-v6exp3-v4.metric.gstatic.com returned 216.239.32.57
+15:50:46  IVE DNS lookup for www.googleapis.com returned 216.58.217.202
+15:50:46  IVE DNS lookup for www.googleapis.com returned 172.217.4.138
+15:50:46  IVE DNS lookup for www.googleapis.com returned 216.58.219.42
+15:50:46  IVE DNS lookup for www.googleapis.com returned 216.58.193.202
+15:50:46  IVE DNS lookup for www.googleapis.com returned 216.58.219.10
+15:50:46  IVE DNS lookup for www.googleapis.com returned 216.58.216.10
+15:50:46  IVE DNS lookup for rp.gwallet.com returned 72.5.64.63
+15:50:46  IVE DNS lookup for um.simpli.fi returned 198.23.90.62
+15:50:46  IVE DNS lookup for um.simpli.fi returned 198.23.90.60
+15:50:46  IVE DNS lookup for um.simpli.fi returned 198.23.90.56
+15:50:47  IVE DNS lookup for dt.adsafeprotected.com returned 69.172.216.111
+15:50:47  IVE DNS lookup for cdn3.doubleverify.com returned 23.209.178.214
+15:50:47  IVE DNS lookup for rtb0.doubleverify.com returned 204.154.110.79
+15:50:49  IVE DNS lookup for cdn.doubleverify.com returned 23.209.178.214
+15:50:51  IVE DNS lookup for tps606.doubleverify.com returned 204.154.110.209
+15:50:51  IVE DNS lookup for c1.rfihub.net returned 72.246.68.66
+15:50:52  IVE DNS lookup for tps30.doubleverify.com returned 204.154.111.224
+15:50:52  IVE DNS lookup for p.rfihub.com returned 198.8.71.239
+15:50:56  IVE DNS lookup for tps10237.doubleverify.com returned 204.154.110.45
+15:50:58  IVE DNS lookup for p4-hp6e7mptw7qeo-mop4b5a4uvhr7biv-228339-i1-v6exp3-v4.metric.gstatic.com returned 216.58.217.206
+15:50:58  IVE DNS lookup for p4-hp6e7mptw7qeo-mop4b5a4uvhr7biv-228339-i2-v6exp3-ds.metric.gstatic.com returned 216.58.194.195
+15:51:03  IVE DNS lookup for s0.2mdn.net returned 216.58.219.38
+15:51:04  IVE DNS lookup for pixel.everesttech.net returned 192.243.232.36
+15:51:05  IVE DNS lookup for code.createjs.com returned 23.213.80.183
+15:51:10  IVE DNS lookup for tags.mathtag.com returned 216.200.233.94
+15:51:10  IVE DNS lookup for tags.mathtag.com returned 74.121.140.171
+15:51:10  IVE DNS lookup for tags.mathtag.com returned 74.121.140.178
+15:51:10  IVE DNS lookup for tags.mathtag.com returned 74.121.139.104
+15:51:11  IVE DNS lookup for c.betrad.com returned 23.209.176.12
+15:51:11  IVE DNS lookup for adfarm.mediaplex.com returned 64.156.167.77
+15:53:00  IVE DNS lookup for graph.facebook.com returned 173.252.88.66
+16:05:11  IVE DNS lookup for mailbg4.sonata.local: host not found
+16:08:38  IVE DNS lookup for bglbg4phcaht01.sonata.local: host not found
+16:12:05  IVE DNS lookup for 3.dr-in.skype-cr.akadns.net returned 104.211.162.70
+16:12:05  IVE DNS lookup for 3.dr-in.skype-cr.akadns.net returned 104.211.163.148
+16:12:05  IVE DNS lookup for 3.dr-in.skype-cr.akadns.net returned 104.211.163.225
+16:12:05  IVE DNS lookup for 3.dr-in.skype-cr.akadns.net returned 104.211.161.239
+16:12:05  IVE DNS lookup for 3.dr-in.skype-cr.akadns.net returned 104.211.166.86
+16:12:05  IVE DNS lookup for 3.dr-in.skype-cr.akadns.net returned 104.211.164.156
+16:12:05  IVE DNS lookup for 3.dr-in.skype-cr.akadns.net returned 104.211.163.245
+16:12:05  IVE DNS lookup for 3.dr-in.skype-cr.akadns.net returned 104.211.167.100
+16:22:38  IVE DNS lookup for bg1vmlyfe01.sonata.local: host not found
+16:22:40  IVE DNS lookup for armmf.adobe.com returned 23.213.60.237
+16:23:43  IVE DNS lookup for wpad.SONATA.LOCAL: host not found
+16:23:43  IVE NetBIOS name lookup for WPAD: host not found
+16:23:44  IVE NetBIOS name lookup for WPAD: host not found
+16:23:45  IVE NetBIOS name lookup for WPAD: host not found
+16:30:51  IVE DNS lookup for bglbg4sccmsvr.sonata.local: host not found
+16:36:40  IVE DNS lookup for bglbg4phcaht01.sonata.local: host not found
+16:39:32  IVE DNS lookup for a.config.skype.com returned 104.40.75.8
+16:43:58  IVE DNS lookup for ui.skype.com returned 111.221.123.231
+16:56:18  IVE DNS lookup for bg1vmlyfe01.sonata.local: host not found
+16:56:20  IVE DNS lookup for BGLBG4W8DC01.SONATA.LOCAL: host not found
+16:56:49  IVE DNS lookup for wpad.SONATA.LOCAL: host not found
+16:56:49  IVE DNS lookup for redir.metaservices.microsoft.com returned 184.51.1.80
+16:56:49  IVE DNS lookup for redir.metaservices.microsoft.com returned 184.51.1.59
+16:56:50  IVE NetBIOS name lookup for WPAD: host not found
+16:56:50  IVE DNS lookup for onlinestores.metaservices.microsoft.com returned 184.51.0.224
+16:56:50  IVE DNS lookup for onlinestores.metaservices.microsoft.com returned 184.51.0.242
+16:56:50  IVE NetBIOS name lookup for WPAD: host not found
+16:56:51  IVE DNS lookup for images.windowsmedia.com returned 184.51.0.233
+16:56:51  IVE DNS lookup for images.windowsmedia.com returned 184.51.0.219
+16:56:51  IVE DNS lookup for xml12es.farolatino.com returned 72.18.206.203
+16:56:51  IVE DNS lookup for img.mixplay.tv returned 127.0.0.1
+16:56:51  IVE NetBIOS name lookup for WPAD: host not found
+16:59:49  IVE NetBIOS name lookup for WPAD: host not found
+16:59:49  IVE NetBIOS name lookup for WPAD: host not found
+16:59:50  IVE NetBIOS name lookup for WPAD: host not found
+16:59:51  IVE DNS lookup for sqm.msn.com returned 65.55.44.82
+17:00:51  IVE DNS lookup for bglbg4sccmsvr.sonata.local: host not found
+17:05:00  IVE NetBIOS name lookup for WPAD: host not found
+17:05:01  IVE NetBIOS name lookup for WPAD: host not found
+17:05:02  IVE NetBIOS name lookup for WPAD: host not found
+17:06:59  IVE DNS lookup for wer.microsoft.com: host not found
+17:07:00  IVE DNS lookup for wer.microsoft.com: host not found
+17:07:53  IVE DNS lookup for g.symcd.com returned 23.7.139.27
+17:07:53  IVE DNS lookup for g.symcd.com returned 23.7.139.27
+17:07:53  IVE DNS lookup for g.symcb.com returned 23.7.133.163
+17:07:54  IVE DNS lookup for wdcp.microsoft.com returned 191.238.241.80
+17:07:55  IVE NetBIOS name lookup for WPAD: host not found
+17:07:56  IVE NetBIOS name lookup for WPAD: host not found
+17:07:57  IVE NetBIOS name lookup for WPAD: host not found
+17:07:57  IVE NetBIOS name lookup for WPAD: host not found
+17:07:57  IVE DNS lookup for x.bidswitch.net returned 52.204.187.220
+17:07:57  IVE DNS lookup for x.bidswitch.net returned 52.70.43.115
+17:07:57  IVE DNS lookup for x.bidswitch.net returned 52.22.114.94
+17:07:57  IVE DNS lookup for x.bidswitch.net returned 52.70.43.117
+17:07:57  IVE DNS lookup for x.bidswitch.net returned 52.70.67.85
+17:07:57  IVE DNS lookup for x.bidswitch.net returned 52.70.43.85
+17:07:57  IVE DNS lookup for x.bidswitch.net returned 52.203.231.120
+17:07:57  IVE DNS lookup for x.bidswitch.net returned 52.204.186.174
+17:07:58  IVE NetBIOS name lookup for WPAD: host not found
+17:07:59  IVE DNS lookup for link.krxd.net returned 52.21.147.26
+17:07:59  IVE DNS lookup for link.krxd.net returned 52.71.143.169
+17:07:59  IVE DNS lookup for link.krxd.net returned 52.1.24.206
+17:07:59  IVE DNS lookup for us-u.openx.net returned 173.241.244.143
+17:07:59  IVE NetBIOS name lookup for WPAD: host not found
+17:08:00  IVE DNS lookup for ocsp.godaddy.com returned 72.167.18.239
+17:08:00  IVE NetBIOS name lookup for WPAD: host not found
+17:08:01  IVE NetBIOS name lookup for WPAD: host not found
+17:08:02  IVE NetBIOS name lookup for WPAD: host not found
+17:08:02  IVE NetBIOS name lookup for WPAD: host not found
+17:08:03  IVE NetBIOS name lookup for WPAD: host not found
+17:08:04  IVE NetBIOS name lookup for WPAD: host not found
+17:08:10  IVE DNS lookup for pf.directory.live.com returned 65.55.52.56
+17:08:12  IVE DNS lookup for s2.symcb.com returned 23.7.139.27
+17:08:12  IVE DNS lookup for s1.symcb.com returned 23.7.133.163
+17:08:14  IVE DNS lookup for api.promotions.skype.com returned 191.236.193.189
+17:08:36  IVE NetBIOS name lookup for WPAD: host not found
+17:08:37  IVE NetBIOS name lookup for WPAD: host not found
+17:08:37  IVE NetBIOS name lookup for WPAD: host not found
+17:08:38  IVE NetBIOS name lookup for WPAD: host not found
+17:08:39  IVE NetBIOS name lookup for WPAD: host not found
+17:08:40  IVE NetBIOS name lookup for WPAD: host not found
+17:08:40  IVE NetBIOS name lookup for WPAD: host not found
+17:08:41  IVE NetBIOS name lookup for WPAD: host not found
+17:08:42  IVE NetBIOS name lookup for WPAD: host not found
+17:08:43  IVE NetBIOS name lookup for WPAD: host not found
+17:08:43  IVE NetBIOS name lookup for WPAD: host not found
+17:08:44  IVE NetBIOS name lookup for WPAD: host not found
+17:08:45  IVE NetBIOS name lookup for WPAD: host not found
+17:08:46  IVE NetBIOS name lookup for WPAD: host not found
+17:08:47  IVE NetBIOS name lookup for WPAD: host not found
+17:08:48  IVE NetBIOS name lookup for WPAD: host not found
+17:08:48  IVE NetBIOS name lookup for WPAD: host not found
+17:08:49  IVE NetBIOS name lookup for WPAD: host not found
+17:08:50  IVE NetBIOS name lookup for WPAD: host not found
+17:08:51  IVE NetBIOS name lookup for WPAD: host not found
+17:08:52  IVE NetBIOS name lookup for WPAD: host not found
+17:08:52  IVE NetBIOS name lookup for WPAD: host not found
+17:08:53  IVE NetBIOS name lookup for WPAD: host not found
+17:08:54  IVE NetBIOS name lookup for WPAD: host not found
+17:08:55  IVE NetBIOS name lookup for WPAD: host not found
+17:08:56  IVE NetBIOS name lookup for WPAD: host not found
+17:08:56  IVE NetBIOS name lookup for WPAD: host not found
+17:08:57  IVE NetBIOS name lookup for WPAD: host not found
+17:08:58  IVE NetBIOS name lookup for WPAD: host not found
+17:08:59  IVE NetBIOS name lookup for WPAD: host not found
+17:10:32  IVE DNS lookup for adadvisor.net returned 156.154.192.38
+17:10:32  IVE DNS lookup for adadvisor.net returned 63.251.248.131
+17:10:33  IVE DNS lookup for gv.symcd.com returned 23.7.139.27
+17:10:34  IVE DNS lookup for gv.symcb.com returned 23.7.133.163
+17:15:10  IVE DNS lookup for bglbg4phcaht01.sonata.local: host not found
+17:19:35  IVE DNS lookup for sg-gmtdmp.mookie1.com returned 52.76.225.214
+17:19:35  IVE DNS lookup for sg-gmtdmp.mookie1.com returned 52.77.95.81
+17:19:35  IVE DNS lookup for sg-gmtdmp.mookie1.com returned 52.77.126.2
+17:19:35  IVE DNS lookup for sg-gmtdmp.mookie1.com returned 52.76.134.221
+17:19:35  IVE DNS lookup for sg-gmtdmp.mookie1.com returned 54.179.141.177
+17:19:35  IVE DNS lookup for sg-gmtdmp.mookie1.com returned 52.77.10.119
+17:19:35  IVE DNS lookup for sg-gmtdmp.mookie1.com returned 52.77.151.186
+17:19:35  IVE DNS lookup for sg-gmtdmp.mookie1.com returned 52.76.173.117
+17:19:35  IVE DNS lookup for static-tagr.gd1.mookie1.com returned 23.66.131.248
+17:19:36  IVE DNS lookup for sg-gmtdmp.gd2.mookie1.com returned 54.179.141.177
+17:19:36  IVE DNS lookup for sg-gmtdmp.gd2.mookie1.com returned 52.77.95.81
+17:19:36  IVE DNS lookup for sg-gmtdmp.gd2.mookie1.com returned 52.76.173.117
+17:19:36  IVE DNS lookup for sg-gmtdmp.gd2.mookie1.com returned 52.77.10.119
+17:19:36  IVE DNS lookup for sg-gmtdmp.gd2.mookie1.com returned 52.76.225.214
+17:19:36  IVE DNS lookup for sg-gmtdmp.gd2.mookie1.com returned 52.76.134.221
+17:19:36  IVE DNS lookup for sg-gmtdmp.gd2.mookie1.com returned 52.77.151.186
+17:19:36  IVE DNS lookup for sg-gmtdmp.gd2.mookie1.com returned 52.77.126.2
+17:19:36  IVE DNS lookup for ss.symcd.com returned 23.7.139.27
+17:19:36  IVE DNS lookup for ss.symcd.com returned 23.7.139.27
+17:19:36  IVE DNS lookup for ss.symcd.com returned 23.7.139.27
+17:19:36  IVE DNS lookup for ss.symcb.com returned 23.7.133.163
+17:19:38  IVE DNS lookup for odr.mookie1.com returned 54.164.61.94
+17:19:38  IVE DNS lookup for odr.mookie1.com returned 52.201.189.7
+17:19:38  IVE DNS lookup for odr.mookie1.com returned 54.209.69.168
+17:19:38  IVE DNS lookup for odr.mookie1.com returned 52.2.127.170
+17:19:38  IVE DNS lookup for odr.mookie1.com returned 23.22.68.129
+17:19:38  IVE DNS lookup for odr.mookie1.com returned 52.2.94.89
+17:19:38  IVE DNS lookup for odr.mookie1.com returned 54.236.167.31
+17:19:38  IVE DNS lookup for odr.mookie1.com returned 52.201.28.74
+17:19:38  IVE DNS lookup for pxlsg.jivox.com returned 54.254.104.190
+17:19:38  IVE DNS lookup for pxlsg.jivox.com returned 54.251.63.20
+17:19:38  IVE DNS lookup for match.adsrvr.org returned 50.18.107.157
+17:19:38  IVE DNS lookup for match.adsrvr.org returned 50.18.45.243
+17:19:38  IVE DNS lookup for match.adsrvr.org returned 50.18.118.230
+17:19:38  IVE DNS lookup for match.adsrvr.org returned 50.18.49.106
+17:19:38  IVE DNS lookup for match.adsrvr.org returned 50.18.45.43
+17:19:38  IVE DNS lookup for match.adsrvr.org returned 50.18.56.172
+17:19:38  IVE DNS lookup for match.adsrvr.org returned 184.169.177.160
+17:19:38  IVE DNS lookup for match.adsrvr.org returned 204.236.135.247
+17:19:39  IVE DNS lookup for ocsp.trustwave.com returned 184.51.0.227
+17:19:39  IVE DNS lookup for ocsp.trustwave.com returned 184.51.0.240
+17:19:40  IVE DNS lookup for p.adsymptotic.com returned 50.16.250.28
+17:19:40  IVE DNS lookup for p.adsymptotic.com returned 54.243.34.228
+17:19:40  IVE DNS lookup for p.adsymptotic.com returned 23.23.132.59
+17:19:40  IVE DNS lookup for p.adsymptotic.com returned 50.19.222.244
+17:19:40  IVE DNS lookup for p.adsymptotic.com returned 107.20.193.182
+17:19:40  IVE DNS lookup for p.adsymptotic.com returned 50.16.214.238
+17:19:40  IVE DNS lookup for p.adsymptotic.com returned 23.23.145.112
+17:19:40  IVE DNS lookup for p.adsymptotic.com returned 174.129.206.99
+17:19:40  IVE DNS lookup for crl.trustwave.com returned 184.51.1.42
+17:19:40  IVE DNS lookup for crl.trustwave.com returned 184.51.1.33
+17:19:41  IVE DNS lookup for ocsp.digicert.com returned 72.21.91.29
+17:26:11  IVE DNS lookup for urlp.asm.skype.com returned 40.78.146.128
+17:26:13  IVE DNS lookup for nus1-urlp.secure.skypeassets.com returned 72.21.81.200
+17:30:51  IVE DNS lookup for bglbg4sccmsvr.sonata.local: host not found
+17:32:32  IVE DNS lookup for www.gmail.com returned 216.58.219.37
+17:32:40  IVE DNS lookup for peiywbeyar.SONATA.LOCAL: host not found
+17:32:40  IVE DNS lookup for xzpgzirownxaw.SONATA.LOCAL: host not found
+17:32:40  IVE DNS lookup for rjwyblvv.SONATA.LOCAL: host not found
+17:32:42  IVE NetBIOS name lookup for PEIYWBEYAR: host not found
+17:32:42  IVE NetBIOS name lookup for RJWYBLVV: host not found
+17:32:42  IVE NetBIOS name lookup for XZPGZIROWNXAW: host not found
+17:32:42  IVE NetBIOS name lookup for XZPGZIROWNXAW: host not found
+17:32:42  IVE NetBIOS name lookup for PEIYWBEYAR: host not found
+17:32:42  IVE NetBIOS name lookup for RJWYBLVV: host not found
+17:32:47  IVE DNS lookup for bg1vmlyfe01.sonata.local: host not found
+17:34:08  IVE DNS lookup for wpad.SONATA.LOCAL: host not found
+17:34:08  IVE NetBIOS name lookup for WPAD: host not found
+17:34:09  IVE NetBIOS name lookup for WPAD: host not found
+17:34:10  IVE NetBIOS name lookup for WPAD: host not found
+17:34:15  IVE DNS lookup for s-media-cache-ak0.pinimg.com returned 151.101.24.84
+17:34:21  IVE DNS lookup for mailbg4.sonata.local: host not found
+17:34:29  IVE NetBIOS name lookup for WPAD: host not found
+17:34:30  IVE NetBIOS name lookup for WPAD: host not found
+17:34:31  IVE NetBIOS name lookup for WPAD: host not found
+17:34:56  IVE NetBIOS name lookup for WPAD: host not found
+17:34:57  IVE NetBIOS name lookup for WPAD: host not found
+17:34:58  IVE NetBIOS name lookup for WPAD: host not found
+17:34:59  IVE DNS lookup for registrar-rr.prod.registrar.skype.com returned 23.101.112.170
+17:35:56  IVE DNS lookup for BGLBG1E10MBX02.SONATA.LOCAL: host not found
+17:37:11  IVE NetBIOS name lookup for WPAD: host not found
+17:37:12  IVE NetBIOS name lookup for WPAD: host not found
+17:37:12  IVE NetBIOS name lookup for WPAD: host not found
+17:37:13  IVE NetBIOS name lookup for WPAD: host not found
+17:37:14  IVE NetBIOS name lookup for WPAD: host not found
+17:37:15  IVE NetBIOS name lookup for WPAD: host not found
+17:37:16  IVE NetBIOS name lookup for WPAD: host not found
+17:37:16  IVE NetBIOS name lookup for WPAD: host not found
+17:37:17  IVE NetBIOS name lookup for WPAD: host not found
+17:37:18  IVE NetBIOS name lookup for WPAD: host not found
+17:37:19  IVE NetBIOS name lookup for WPAD: host not found
+17:37:19  IVE NetBIOS name lookup for WPAD: host not found
+17:37:20  IVE NetBIOS name lookup for WPAD: host not found
+17:37:21  IVE NetBIOS name lookup for WPAD: host not found
+17:37:22  IVE NetBIOS name lookup for WPAD: host not found
+17:37:23  IVE NetBIOS name lookup for WPAD: host not found
+17:37:23  IVE NetBIOS name lookup for WPAD: host not found
+17:37:24  IVE NetBIOS name lookup for WPAD: host not found
+17:37:25  IVE NetBIOS name lookup for WPAD: host not found
+17:37:26  IVE NetBIOS name lookup for WPAD: host not found
+17:37:26  IVE NetBIOS name lookup for WPAD: host not found
+17:37:27  IVE NetBIOS name lookup for WPAD: host not found
+17:37:28  IVE NetBIOS name lookup for WPAD: host not found
+17:37:29  IVE NetBIOS name lookup for WPAD: host not found
+17:37:56  IVE NetBIOS name lookup for WPAD: host not found
+17:37:57  IVE NetBIOS name lookup for WPAD: host not found
+17:37:57  IVE NetBIOS name lookup for WPAD: host not found
+17:37:58  IVE NetBIOS name lookup for WPAD: host not found
+17:37:59  IVE NetBIOS name lookup for WPAD: host not found
+17:38:00  IVE NetBIOS name lookup for WPAD: host not found
+17:43:26  IVE DNS lookup for witkctoibbqwe.SONATA.LOCAL: host not found
+17:43:26  IVE DNS lookup for fcestfn.SONATA.LOCAL: host not found
+17:43:26  IVE DNS lookup for qchfkcjubjarg.SONATA.LOCAL: host not found
+17:43:27  IVE NetBIOS name lookup for FCESTFN: host not found
+17:43:27  IVE NetBIOS name lookup for WITKCTOIBBQWE: host not found
+17:43:27  IVE NetBIOS name lookup for QCHFKCJUBJARG: host not found
+17:43:28  IVE NetBIOS name lookup for WITKCTOIBBQWE: host not found
+17:43:28  IVE NetBIOS name lookup for FCESTFN: host not found
+17:43:28  IVE NetBIOS name lookup for QCHFKCJUBJARG: host not found
+17:43:28  IVE NetBIOS name lookup for FCESTFN: host not found
+17:43:28  IVE NetBIOS name lookup for WITKCTOIBBQWE: host not found
+17:43:28  IVE NetBIOS name lookup for QCHFKCJUBJARG: host not found
+17:43:50  IVE DNS lookup for accounts.google.co.in returned 216.58.217.195
+17:43:53  IVE DNS lookup for mail-attachment.googleusercontent.com returned 216.58.219.33
+17:43:59  IVE DNS lookup for 0.client-channel.google.com returned 173.194.203.189
+17:44:13  IVE NetBIOS name lookup for WPAD: host not found
+17:44:14  IVE NetBIOS name lookup for WPAD: host not found
+17:44:15  IVE NetBIOS name lookup for WPAD: host not found
+17:44:18  IVE DNS lookup for btf-analytics.s3.amazonaws.com returned 54.231.82.211
+17:44:20  IVE DNS lookup for analytics.atlassian.com returned 52.202.77.49
+17:44:20  IVE DNS lookup for analytics.atlassian.com returned 52.72.171.16
+17:44:21  IVE NetBIOS name lookup for WPAD: host not found
+17:44:21  IVE DNS lookup for www.sourcetreeapp.com returned 131.103.28.14
+17:44:22  IVE NetBIOS name lookup for WPAD: host not found
+17:44:23  IVE NetBIOS name lookup for WPAD: host not found
+17:45:23  IVE DNS lookup for github.com returned 192.30.253.113
+17:45:51  IVE DNS lookup for xaagsevydj.SONATA.LOCAL: host not found
+17:45:51  IVE DNS lookup for yeeziwezygy.SONATA.LOCAL: host not found
+17:45:51  IVE DNS lookup for anktkfppsczsnl.SONATA.LOCAL: host not found
+17:45:51  IVE NetBIOS name lookup for XAAGSEVYDJ: host not found
+17:45:51  IVE NetBIOS name lookup for ANKTKFPPSCZSNL: host not found
+17:45:51  IVE NetBIOS name lookup for YEEZIWEZYGY: host not found
+17:45:52  IVE NetBIOS name lookup for YEEZIWEZYGY: host not found
+17:45:52  IVE NetBIOS name lookup for XAAGSEVYDJ: host not found
+17:45:52  IVE NetBIOS name lookup for ANKTKFPPSCZSNL: host not found
+17:45:53  IVE NetBIOS name lookup for ANKTKFPPSCZSNL: host not found
+17:45:53  IVE NetBIOS name lookup for XAAGSEVYDJ: host not found
+17:45:53  IVE NetBIOS name lookup for YEEZIWEZYGY: host not found
