@@ -4,3 +4,9 @@ c:\users\hasan.m\documents\visual studio 2013\Projects\ServiceTest\ServiceTest\b
 c:\users\hasan.m\documents\visual studio 2013\Projects\ServiceTest\ServiceTest\obj\Debug\ServiceTest.csprojResolveAssemblyReference.cache
 c:\users\hasan.m\documents\visual studio 2013\Projects\ServiceTest\ServiceTest\obj\Debug\ServiceTest.dll
 c:\users\hasan.m\documents\visual studio 2013\Projects\ServiceTest\ServiceTest\obj\Debug\ServiceTest.pdb
+D:\MyGitProject\ServiceTest\ServiceTest\ServiceTest\bin\ServiceTest.dll.config
+D:\MyGitProject\ServiceTest\ServiceTest\ServiceTest\bin\ServiceTest.dll
+D:\MyGitProject\ServiceTest\ServiceTest\ServiceTest\bin\ServiceTest.pdb
+D:\MyGitProject\ServiceTest\ServiceTest\ServiceTest\obj\Debug\ServiceTest.csprojResolveAssemblyReference.cache
+D:\MyGitProject\ServiceTest\ServiceTest\ServiceTest\obj\Debug\ServiceTest.dll
+D:\MyGitProject\ServiceTest\ServiceTest\ServiceTest\obj\Debug\ServiceTest.pdb

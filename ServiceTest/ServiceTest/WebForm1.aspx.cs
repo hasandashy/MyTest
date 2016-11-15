@@ -15,7 +15,11 @@ namespace ServiceTest
             AuthenticationWebServiceSoapClient _asc = new AuthenticationWebServiceSoapClient();
             //_asc.
 
-            string strTest = _asc.Login("17F742F6-1ACF-452A-A114-55116BA1CAB3", "lliu@hrpa.ca", "123456");
+            string strTest = _asc.AuthenticateUser("17F742F6-1ACF-452A-A114-55116BA1CAB3", "diego", "diego");
+
+           string test = _asc.AuthenticateToken("17F742F6-1ACF-452A-A114-55116BA1CAB3", strTest);
+
+            
             
         }
     }
